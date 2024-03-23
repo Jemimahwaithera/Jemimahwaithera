@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="animated-heading"> My Portfolio</h1>
+    </header>
+<div>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+</div>
+  <div class="about">
+    <section id="about">
+        <h2>About Me</h2>
+        <p1>Welcome to my portfolio website. I am Jemimah Waithera a full-stack developer passionate about creating amazing websites,systems and softwares.</p1>
+    </div>
+      <div class="container">
+      <img src="/storage/emulated/0/Snapchat/Snapchat-1812706582.jpg" height="200" width="250">
+        <div class="text">
+          <p> Schedule a call with us today. Your strategy,design and technology partner</p>
+          <h3><u><b>SKILLS</b></u></h3>
+          <ul>
+            <li>A Web designer</li>
+            <li>A Web dev</li>
+            <li>IT consultant</li>
+            <li>A Software dev</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  <div class="heading">
+    <section id="projects">
+        <h2>Projects</h2>
+    </div>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p><u><b>A Prison Management System</p></u></b>
+          <p>The System helps a prison input prisoner name,days sentenced,what sentensed for and Warden’s name and cell no.allocated</p>
+          <p>The aim of this System was to reduce the paper work and loss of important documents</p>
+          <ul><h3>Languages Used Includes:
+          </h3>
+            <li>HTML</li>
+            <li>PHP</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>PYTHON</li>
+          </ul>
+          <p><b>Frameworks Used:</p></b>
+          <ul>
+            <li>Bootstrap</li>
+            <li>Djando</li>
+            <li>React.js</li>
+            <li>Talwind</li>
+          </ul>
+        </div>
+        <div class="project">
+            <h5>Project 2</h5>
+            <p><u><b>MainaBenny Electrical Website</p></u></b>
+          <p> The website deals with selling Electric equipments,booking of electric services </p>
+          <p> This website aimed at customers from all over the country,where you can shop your electic equipments at the palm of your hand</p>
+          <ul><h6>Languages Used</h6>
+            <li>Javascript</li>
+            <li>Html</li>
+            <li>Css</li>
+          </ul>
+          <ul><h>Frameworks incude:</h>
+            <li>Bootstrap</li>
+            <li>React.js</li>
+          </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+      <div class="contact">
+        <p> <img src="/storage/emulated/0/Download/download.png" width="25" height="25" >Email: jemimahwaithera5@gmail.com</p>
+        <p>   <img src="/storage/emulated/0/Download/download-3.jpeg" width="25" height="25">Phone: 0743168837</p>
+      <p><img src="/storage/emulated/0/Pictures/facebook/1711118898510.jpg" width="25" height="25">Facebook: Waithera Jemimah</p>
+      </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+  background-image: url('/storage/emulated/0/Download/images.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-image filter: blur(400px); /* Adjust the blur amount as needed */
+  font- weight: bold;
+  background-color: lightblue;
+}
+
+}
+  h3{
+    text-align: center;
+  }
+  .about{
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: grey;
+  }
+    .container {
+        display: flex;
+        align-items: center;
+        background-color: thistle;
+    imag-border-radius: 50%;
+    }
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+
+nav {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    background-color: orange;
+}
+
+section {
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: skyblue;
+}
+p1{
+  color: black;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  border: 1px;
+}
+  image
+  {
+    flex: 1px;
+          border-radius: 50%;
+  }
+  .contact{
+    background-color: lightgreen;
+    text-align: center;
+    padding: 10px;
+  }
+         .animate-heading {
+         animation: slide-in 1s ease-out;
+       }
+
+       @keyframes slide-in {
+         0% {
+           transform: translateX(-100%);
+           opacity: 0;
+         }
+         100% {
+           transform: translateX(0);
+           opacity: 1;
+         }
+       } 
+  heading{
+    text-align: center;
+  }
+  image-container {
+  position: relative;
+}
+
+#customizable-image {
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(50%);
+}
+
+.customized {
+  filter: none;
+  transform: scale(1.1);
+}
+  </style>
+</body>
+</html>
